@@ -14,7 +14,7 @@ body{
     border: 0.1px solid var(--font-color);
     border-left: 7px solid var(--font-color);
     border-right: 7px solid var(--font-color);
-
+    color: var(--font-color);
 }
 img{
     width:20rem;
