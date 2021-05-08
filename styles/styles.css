@@ -60,6 +60,10 @@ nav{
 
 }
 
+.navigation-sub a:hover,.navigation button:hover{
+  color: #ffff;
+  background-color: var(--font-color);
+}
 .new-stuff img{
     width: 100%;
     margin: 0;
@@ -117,6 +121,9 @@ margin: 1rem auto;
     padding: 3rem 0;
     text-align: center;
 
+}
+.contact-links img{
+  width: 15px;
 }
 .email,.phone{
     margin: .5rem 0;
@@ -253,7 +260,6 @@ margin: 1rem auto;
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
   input, textarea, select {
     padding: 12px 20px;
